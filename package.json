@@ -1,0 +1,32 @@
+{
+  "name": "passport-aloha",
+  "version": "0.0.1",
+  "description": "Salesforce / Aloha authentication strategy for Passport.",
+  "author": {
+    "name": "Jeff Douglas",
+    "email": "jdouglas@salesforce.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/jeffdonthemic/passport-aloha.git"
+  },
+  "license": "BSD-3-Clause",
+  "main": "./lib/passport-aloha",
+  "dependencies": {
+    "passport-oauth2": "1.3.x"
+  },
+  "engines": {
+    "node": ">= 0.4.0"
+  },
+  "keywords": [],
+  "devDependencies": {
+    "chai": "~1.9.0",
+    "express": ">= 0.0.0",
+    "mocha": "~1.17.1",
+    "ejs": ">= 0.0.0",
+    "passport": "^0.4.0"
+  },
+  "scripts": {
+    "test": "./node_modules/.bin/mocha -R spec test/run.js"
+  }
+}
