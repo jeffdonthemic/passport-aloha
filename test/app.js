@@ -8,8 +8,8 @@ var express = require('express'),
   AlohaStrategy = require('../lib/passport-aloha').Strategy;
 
 // Force.com App Credentials
-var CF_CLIENT_ID = '3MVG9A2kN3Bn17hsWsLDatw._IRRcBapWFgecAzRUqAny5.wuHmAMejzvV7ZhFlTg5ZPNdHBDjS18Zu0cvgeN';
-var CF_CLIENT_SECRET = '3585278186716093184';
+var CF_CLIENT_ID = process.env.CF_CLIENT_ID;
+var CF_CLIENT_SECRET = process.env.CF_CLIENT_SECRET;
 
 // Note: You should have a app.get(..) for this callback to receive callback
 // from Force.com
