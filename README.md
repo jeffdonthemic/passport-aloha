@@ -1,9 +1,5 @@
 # passport-aloha
 
-<p align="center">
-  <img src="https://raw.github.com/jeffdonthemic/passport-aloha/master/images/sf.png" alt="SalesForce" />
-</p>
-
 This is a Strategy for use with [PassportJS](http://passportjs.org) with the
 Force.com platform specificially for Aloha. This package is a fork of
 Josh Birk's [passport-forcedotcom](https://github.com/joshbirk/passport-forcedotcom) package.
